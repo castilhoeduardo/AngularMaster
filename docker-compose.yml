@@ -19,7 +19,6 @@ services:
         networks: 
             - mysqlNET
         environment: 
-            - MYSQL_USER=root 
             - MYSQL_PASSWORD=lalaland 
             - MYSQL_ROOT_PASSWORD=lalaland 
             - MYSQL_ROOT_HOST=%
